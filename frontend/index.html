@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>SpazorLabs RAG System</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="app">
+    <h1>🚀 SpazorLabs RAG System</h1>
+    <p class="subtitle">Upload documents • Ask questions • Get AI answers</p>
+
+    <!-- Upload Section -->
+    <div class="card">
+      <h2>📄 Upload Document</h2>
+      <input type="file" id="fileInput" />
+      <button onclick="uploadFile()">Upload</button>
+      <p id="uploadStatus" class="status"></p>
+    </div>
+
+    <!-- Ask Section -->
+    <div class="card">
+      <h2>💬 Ask Question</h2>
+      <textarea id="questionInput" placeholder="Ask anything from the uploaded documents..."></textarea>
+      <button onclick="askQuestion()">Ask</button>
+    </div>
+
+    <!-- Answer Section -->
+    <div class="card answer-card">
+      <h2>🧠 Answer</h2>
+      <div id="answerBox" class="answer">
+        Ask a question to see the magic ✨
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

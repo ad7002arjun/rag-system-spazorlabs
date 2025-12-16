@@ -1,0 +1,2 @@
+SpazorLabs is an AI-focused company working on machine learning,
+RAG systems, OCR, and domain-specific AI assistants.

@@ -1,0 +1,10 @@
+SpazorLabs is a technology-focused company that works on artificial intelligence,
+machine learning, and advanced software systems.
+
+Retrieval-Augmented Generation (RAG) is a technique that combines document retrieval
+with large language models to produce accurate, grounded answers.
+
+RAG systems are commonly used in chatbots, document Q&A systems, and enterprise
+knowledge assistants.
+
+SpazorLabs internship assessments focus on practical, production-ready AI systems.
